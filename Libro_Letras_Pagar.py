@@ -1,3 +1,4 @@
+#Libro_Letras_Pagar.py
 from datetime import datetime, timedelta
 
 def calcula_vencimiento_y_monto(numero_registro, numero_letra, fecha, aceptacion_plazo, monto, num_pagos):
@@ -32,6 +33,7 @@ num_pagos = int(input("Ingrese la cantidad de pagos que se realizaran: "))
 
 # Calculamos la fecha de vencimiento y el monto a pagar
 vencimiento, monto_a_pagar = calcula_vencimiento_y_monto(numero_registro, numero_letra, fecha, aceptacion_plazo, monto, num_pagos)
+
 
 # Calculamos las fechas y montos de los pagos
 pagos = []

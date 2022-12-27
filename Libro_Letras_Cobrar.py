@@ -1,3 +1,4 @@
+#Libro_Letras_Cobrar.py
 from datetime import datetime, timedelta
 
 def calcula_vencimiento_y_monto(numero_registro, numero_letra, fecha, aceptacion_plazo, monto, num_pagos):

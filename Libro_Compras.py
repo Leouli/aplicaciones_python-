@@ -1,5 +1,6 @@
+# Libro_Compras.py
 # Se importa la librería math para usar la función round()
-import math
+##import math
 
 
 # Se define una función que calcula el valor de compra a partir de los datos de un registro
